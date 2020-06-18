@@ -1,0 +1,46 @@
+/* Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7 */
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+header{
+    border-top: 2px solid #666666;
+    border-bottom: 1px solid #666666;
+}
+.nav-wrapper{
+    height: 76px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.logo{
+    color: #666666;
+    text-decoration: none;
+    font-size: 1.6rem;
+    width: 175px;
+}
+.logo:hover{
+    color: #333333;
+}
+ul{
+    list-style: none;
+    margin: 0;
+}
+ul li{
+    display: inline;
+}
+a:not(.logo){
+    text-decoration: none;
+    color: #333333;
+    font-size: 0.9rem;
+    padding-left: 25px;
+}
+a:not(.logo):hover{
+    text-decoration: underline;
+}
